@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 600px;
+  height: 30%;
+  min-height: 400px;
+  margin: 0 auto;
+  border: 3px solid rgb(74, 74, 74);
+  overflow: hidden;
+}
+#game-field{
+  background-color: lightblue;
+  flex: 1 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goto-home-button, .retry-button{
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.goto-home-button>img, .retry-button>img{
+  width: 100%;
+  height: 100%;
+}
+a{
+  text-decoration: none!important;
+}
+#game-field{
+  display: flex;
+  flex-direction: column;
+}
+.game-description{
+  margin: 20px 0;
+}

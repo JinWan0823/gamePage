@@ -1,0 +1,11 @@
+#guide-container{
+  text-align: center;
+}
+.guide-description{
+  margin-bottom: 50px;
+  line-height: 150%;
+}
+.arrow{
+  font-size: 2rem;
+  padding: 0 10px;
+}

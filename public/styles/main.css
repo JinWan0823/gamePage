@@ -1,0 +1,42 @@
+#game-list-container{
+  background-color: lightblue;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.game-card{
+  width: 30%;
+  position:relative;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  text-align: center;
+  color: black;
+  box-sizing: border-box;
+}
+.game-card>img{
+  width: 100%;
+}
+.game-new-badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(62, 127, 238);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(217, 231, 255);
+  transform: rotate(20deg);
+  box-shadow: 5px 5px 5px gray;
+}
+.game-title{
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+.game-result{
+  color: gray;
+}

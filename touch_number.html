@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>숫자 클릭 게임</title>
+    <link href="public/styles/styles.css" rel="stylesheet">
+    <link href="public/styles/header.css" rel="stylesheet">
+    <link href="public/styles/modal.css" rel="stylesheet">
+    <link href="public/styles/touch_number.css" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <div id='header'>
+        <div class='header-button-container'>
+          <a class='goto-home-button' href='./index.html'>
+            <img src='public/assets/home.png' alt='home'/>
+          </a>
+          <button class='retry-button'>
+            <img src='public/assets/retry.png' alt='retry'/>
+          </button>
+        </div>
+        <h2>숫자 클릭 게임</h2>
+        <span class='game-time'>
+          00:00:00
+        </span>
+      </div>
+      <div id='game-field'>
+        <div class='game-description'>
+          1부터 10까지 빠르게 클릭해보세요.<br />
+          1을 클릭하는 순간 시작됩니다.
+        </div>
+        <div id='number-field'>
+          <button class="number-button">1</button>
+          <button class="number-button">2</button>
+          <button class="number-button">3</button>
+          <button class="number-button">4</button>
+          <button class="number-button">5</button>
+          <button class="number-button">6</button>
+          <button class="number-button">7</button>
+          <button class="number-button">8</button>
+          <button class="number-button">9</button>
+          <button class="number-button">10</button>
+        </div>
+      </div>
+    </section>
+    <div class='modal'>
+      <div class='modal-title'>성공!</div>
+      <div class='modal-description'>00:22:00만에 성공하였습니다!</div>
+      <div class='modal-button-container'>
+        <a class='goto-home-button' href='./index.html'>
+          <img src='public/assets/home.png' alt='home'/>
+        </a>
+        <button class='retry-button'>
+          <img src='public/assets/retry.png' alt='home'/>
+        </button>
+      </div>
+    </div>
+    <script src="./touchNumber.js" type="module"></script>
+  </body>
+</html>

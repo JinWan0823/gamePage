@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>방향키 게임</title>
+    <link href="public/styles/styles.css" rel="stylesheet">
+    <link href="public/styles/header.css" rel="stylesheet">
+    <link href="public/styles/modal.css" rel="stylesheet">
+    <link href="public/styles/arrow_speed.css" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <div id='header'>
+        <div class='header-button-container'>
+          <a class='goto-home-button' href='./index.html'>
+            <img src='public/assets/home.png' alt='home'/>
+          </a>
+          <button class='retry-button'>
+            <img src='public/assets/retry.png' alt='retry'/>
+          </button>
+        </div>
+        <h2>방향키 게임</h2>
+        <span class='game-time'>
+          00:00:00
+        </span>
+      </div>
+      <div id='game-field'>
+        <div id='guide-container'>
+          <div class='guide-description'>
+            3번의 방향키가 표시됩니다!<br/>
+            방향키를 클릭하는 순간 시작됩니다.
+          </div>
+          <div id='arrow-field'>
+            <!-- <span class='arrow arrow-left'>&lt;</span>
+            <span class='arrow arrow-right'>&gt;</span>
+            <span class='arrow arrow-right'>&gt;</span>
+            <span class='arrow arrow-right'>&gt;</span>
+            <span class='arrow arrow-left'>&lt;</span>
+            <span class='arrow arrow-right'>&gt;</span>
+            <span class='arrow arrow-right'>&gt;</span>
+            <span class='arrow arrow-left'>&lt;</span>
+            <span class='arrow arrow-right'>&gt;</span> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class='modal'>
+      <div class='modal-title'>성공!</div>
+      <div class='modal-description'>00:22:00만에 성공하였습니다!</div>
+      <div class='modal-button-container'>
+        <a class='goto-home-button' href='./index.html'>
+          <img src='public/assets/home.png' alt='home'/>
+        </a>
+        <button class='retry-button'>
+          <img src='public/assets/retry.png' alt='home'/>
+        </button>
+      </div>
+    </div>
+    <script src="./arrowSpeed.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+
+#header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 0 10px;
+  box-sizing: border-box;
+  flex: 0 0;
+}
+#header h2{
+  font-size: 1.2rem;
+  padding-left: 10%;
+}
+.header-button-container{
+  display: flex;
+}
+.header-button-container>a{
+  margin-right: 5px;
+}
+.game-time {
+  width: 100px;
+  text-align: right;
+}
