@@ -11,7 +11,7 @@ const convertToTwoNumber = (num) => {
     else return stringNum;
 }
 
-const getTimeString = (time)=>{
+export const getTimeString = (time)=>{
     const hours = Math.floor(time / 3600);
     time = time- hours*3600
     const minutes = Math.floor(time/60) 
@@ -53,3 +53,4 @@ export const getResultTimeString = () => {
 export const getNowTime = () => {
     return time;
 }
+
